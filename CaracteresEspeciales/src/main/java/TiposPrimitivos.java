@@ -28,5 +28,7 @@ public class TiposPrimitivos {
         int conversionLong = (int)2147483648L; // Al agregar la L indicaremos que es un numero de 64 bytes en lugar de 32 bytes
         System.out.println("conversionLong = " + conversionLong);
         
+        long numeroLong = (long)9223372036854775807L;
+        System.out.println("numeroLong = " + numeroLong);
     }
 }
